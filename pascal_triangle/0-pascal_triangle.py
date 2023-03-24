@@ -16,4 +16,5 @@ def pascal_triangle(n):
     for i in range(len(row1)):
         for j in range(i):
             if j != 0:
-                row1[i][j] = row1[i - 1][j] + row1[i - 1][j - 1r    return row1
+                row1[i][j] = row1[i - 1][j] + row1[i - 1][j - 1]
+    return row1
